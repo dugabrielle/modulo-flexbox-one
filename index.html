@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bat-Cat</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        background: url(bing_imagens.jfif);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.9;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 2px solid rgb(59, 131, 179);
+        border-radius: 8px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: black;
+        box-shadow: 8px 3px 20px rgb(15, 67, 161);
+      }
+
+      .imagem_1 {
+        padding: 1.2rem;
+        width: 32rem;        
+        max-width: 100%;
+        border-radius: 2rem;
+      }
+
+      h2 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(59, 131, 179);
+      }
+
+      p {
+        padding-top: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="card">
+        <img
+          src="gatinho.png"
+          class="imagem_1"
+          alt="gato atrás do seu amigo morcego"
+        />
+        <h2>BatCat</h2>
+        <p>Gatinha "Sabrina" brincando com o seu amigo morcego "Bat"!</p>
+      </div>
+    </div>
+  </body>
+</html>
